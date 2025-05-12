@@ -1,0 +1,694 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		FCBDA2572DD198D400218896 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCBDA2412DD198D300218896 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCBDA2482DD198D300218896;
+			remoteInfo = SmartBrewerDemoApp;
+		};
+		FCBDA2612DD198D400218896 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCBDA2412DD198D300218896 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCBDA2482DD198D300218896;
+			remoteInfo = SmartBrewerDemoApp;
+		};
+		FCBDA27D2DD1995300218896 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCBDA2412DD198D300218896 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCBDA2482DD198D300218896;
+			remoteInfo = SmartBrewerDemoApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FC82FBAD2DD19E420017B111 /* SmartBrewerDemoApp.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = SmartBrewerDemoApp.xctestplan; sourceTree = "<group>"; };
+		FC82FBAE2DD19FD90017B111 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCBDA2492DD198D300218896 /* SmartBrewerDemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartBrewerDemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCBDA2562DD198D400218896 /* SmartBrewerDemoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartBrewerDemoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCBDA2602DD198D400218896 /* SmartBrewerDemoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartBrewerDemoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCBDA2772DD1995300218896 /* SmartBrewerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartBrewerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		FC82FBB22DD1A2910017B111 /* Exceptions for "SmartBrewerDemoApp" folder in "SmartBrewerDemoApp" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = FCBDA2482DD198D300218896 /* SmartBrewerDemoApp */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		FCBDA24B2DD198D300218896 /* SmartBrewerDemoApp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				FC82FBB22DD1A2910017B111 /* Exceptions for "SmartBrewerDemoApp" folder in "SmartBrewerDemoApp" target */,
+			);
+			path = SmartBrewerDemoApp;
+			sourceTree = "<group>";
+		};
+		FCBDA2592DD198D400218896 /* SmartBrewerDemoAppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SmartBrewerDemoAppTests;
+			sourceTree = "<group>";
+		};
+		FCBDA2632DD198D400218896 /* SmartBrewerDemoAppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SmartBrewerDemoAppUITests;
+			sourceTree = "<group>";
+		};
+		FCBDA2782DD1995300218896 /* SmartBrewerUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SmartBrewerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCBDA2462DD198D300218896 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCBDA2532DD198D400218896 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCBDA25D2DD198D400218896 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCBDA2742DD1995300218896 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FCBDA2402DD198D300218896 = {
+			isa = PBXGroup;
+			children = (
+				FC82FBAE2DD19FD90017B111 /* Info.plist */,
+				FC82FBAD2DD19E420017B111 /* SmartBrewerDemoApp.xctestplan */,
+				FCBDA24B2DD198D300218896 /* SmartBrewerDemoApp */,
+				FCBDA2592DD198D400218896 /* SmartBrewerDemoAppTests */,
+				FCBDA2632DD198D400218896 /* SmartBrewerDemoAppUITests */,
+				FCBDA2782DD1995300218896 /* SmartBrewerUITests */,
+				FCBDA24A2DD198D300218896 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FCBDA24A2DD198D300218896 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCBDA2492DD198D300218896 /* SmartBrewerDemoApp.app */,
+				FCBDA2562DD198D400218896 /* SmartBrewerDemoAppTests.xctest */,
+				FCBDA2602DD198D400218896 /* SmartBrewerDemoAppUITests.xctest */,
+				FCBDA2772DD1995300218896 /* SmartBrewerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCBDA2482DD198D300218896 /* SmartBrewerDemoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCBDA26A2DD198D400218896 /* Build configuration list for PBXNativeTarget "SmartBrewerDemoApp" */;
+			buildPhases = (
+				FCBDA2452DD198D300218896 /* Sources */,
+				FCBDA2462DD198D300218896 /* Frameworks */,
+				FCBDA2472DD198D300218896 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				FCBDA24B2DD198D300218896 /* SmartBrewerDemoApp */,
+			);
+			name = SmartBrewerDemoApp;
+			packageProductDependencies = (
+			);
+			productName = SmartBrewerDemoApp;
+			productReference = FCBDA2492DD198D300218896 /* SmartBrewerDemoApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FCBDA2552DD198D400218896 /* SmartBrewerDemoAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCBDA26D2DD198D400218896 /* Build configuration list for PBXNativeTarget "SmartBrewerDemoAppTests" */;
+			buildPhases = (
+				FCBDA2522DD198D400218896 /* Sources */,
+				FCBDA2532DD198D400218896 /* Frameworks */,
+				FCBDA2542DD198D400218896 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCBDA2582DD198D400218896 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				FCBDA2592DD198D400218896 /* SmartBrewerDemoAppTests */,
+			);
+			name = SmartBrewerDemoAppTests;
+			packageProductDependencies = (
+			);
+			productName = SmartBrewerDemoAppTests;
+			productReference = FCBDA2562DD198D400218896 /* SmartBrewerDemoAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FCBDA25F2DD198D400218896 /* SmartBrewerDemoAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCBDA2702DD198D400218896 /* Build configuration list for PBXNativeTarget "SmartBrewerDemoAppUITests" */;
+			buildPhases = (
+				FCBDA25C2DD198D400218896 /* Sources */,
+				FCBDA25D2DD198D400218896 /* Frameworks */,
+				FCBDA25E2DD198D400218896 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCBDA2622DD198D400218896 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				FCBDA2632DD198D400218896 /* SmartBrewerDemoAppUITests */,
+			);
+			name = SmartBrewerDemoAppUITests;
+			packageProductDependencies = (
+			);
+			productName = SmartBrewerDemoAppUITests;
+			productReference = FCBDA2602DD198D400218896 /* SmartBrewerDemoAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		FCBDA2762DD1995300218896 /* SmartBrewerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCBDA27F2DD1995300218896 /* Build configuration list for PBXNativeTarget "SmartBrewerUITests" */;
+			buildPhases = (
+				FCBDA2732DD1995300218896 /* Sources */,
+				FCBDA2742DD1995300218896 /* Frameworks */,
+				FCBDA2752DD1995300218896 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCBDA27E2DD1995300218896 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				FCBDA2782DD1995300218896 /* SmartBrewerUITests */,
+			);
+			name = SmartBrewerUITests;
+			packageProductDependencies = (
+			);
+			productName = SmartBrewerUITests;
+			productReference = FCBDA2772DD1995300218896 /* SmartBrewerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCBDA2412DD198D300218896 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					FCBDA2482DD198D300218896 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					FCBDA2552DD198D400218896 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = FCBDA2482DD198D300218896;
+					};
+					FCBDA25F2DD198D400218896 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = FCBDA2482DD198D300218896;
+					};
+					FCBDA2762DD1995300218896 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = FCBDA2482DD198D300218896;
+					};
+				};
+			};
+			buildConfigurationList = FCBDA2442DD198D300218896 /* Build configuration list for PBXProject "SmartBrewerDemoApp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FCBDA2402DD198D300218896;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = FCBDA24A2DD198D300218896 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCBDA2482DD198D300218896 /* SmartBrewerDemoApp */,
+				FCBDA2552DD198D400218896 /* SmartBrewerDemoAppTests */,
+				FCBDA25F2DD198D400218896 /* SmartBrewerDemoAppUITests */,
+				FCBDA2762DD1995300218896 /* SmartBrewerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCBDA2472DD198D300218896 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCBDA2542DD198D400218896 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCBDA25E2DD198D400218896 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCBDA2752DD1995300218896 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCBDA2452DD198D300218896 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCBDA2522DD198D400218896 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCBDA25C2DD198D400218896 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCBDA2732DD1995300218896 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FCBDA2582DD198D400218896 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCBDA2482DD198D300218896 /* SmartBrewerDemoApp */;
+			targetProxy = FCBDA2572DD198D400218896 /* PBXContainerItemProxy */;
+		};
+		FCBDA2622DD198D400218896 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCBDA2482DD198D300218896 /* SmartBrewerDemoApp */;
+			targetProxy = FCBDA2612DD198D400218896 /* PBXContainerItemProxy */;
+		};
+		FCBDA27E2DD1995300218896 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCBDA2482DD198D300218896 /* SmartBrewerDemoApp */;
+			targetProxy = FCBDA27D2DD1995300218896 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FCBDA2682DD198D400218896 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 4GMZLS5YBQ;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FCBDA2692DD198D400218896 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 4GMZLS5YBQ;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FCBDA26B2DD198D400218896 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4GMZLS5YBQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SmartBrewerDemoApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SmartBrewerDemoApp.SmartBrewerDemoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FCBDA26C2DD198D400218896 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4GMZLS5YBQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SmartBrewerDemoApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SmartBrewerDemoApp.SmartBrewerDemoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FCBDA26E2DD198D400218896 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4GMZLS5YBQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SmartBrewerDemoApp.SmartBrewerDemoAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartBrewerDemoApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SmartBrewerDemoApp";
+			};
+			name = Debug;
+		};
+		FCBDA26F2DD198D400218896 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4GMZLS5YBQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SmartBrewerDemoApp.SmartBrewerDemoAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartBrewerDemoApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SmartBrewerDemoApp";
+			};
+			name = Release;
+		};
+		FCBDA2712DD198D400218896 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4GMZLS5YBQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SmartBrewerDemoApp.SmartBrewerDemoAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SmartBrewerDemoApp;
+			};
+			name = Debug;
+		};
+		FCBDA2722DD198D400218896 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4GMZLS5YBQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SmartBrewerDemoApp.SmartBrewerDemoAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SmartBrewerDemoApp;
+			};
+			name = Release;
+		};
+		FCBDA2802DD1995300218896 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4GMZLS5YBQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SmartBrewerDemoApp.SmartBrewerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SmartBrewerDemoApp;
+			};
+			name = Debug;
+		};
+		FCBDA2812DD1995300218896 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4GMZLS5YBQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SmartBrewerDemoApp.SmartBrewerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SmartBrewerDemoApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCBDA2442DD198D300218896 /* Build configuration list for PBXProject "SmartBrewerDemoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCBDA2682DD198D400218896 /* Debug */,
+				FCBDA2692DD198D400218896 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCBDA26A2DD198D400218896 /* Build configuration list for PBXNativeTarget "SmartBrewerDemoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCBDA26B2DD198D400218896 /* Debug */,
+				FCBDA26C2DD198D400218896 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCBDA26D2DD198D400218896 /* Build configuration list for PBXNativeTarget "SmartBrewerDemoAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCBDA26E2DD198D400218896 /* Debug */,
+				FCBDA26F2DD198D400218896 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCBDA2702DD198D400218896 /* Build configuration list for PBXNativeTarget "SmartBrewerDemoAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCBDA2712DD198D400218896 /* Debug */,
+				FCBDA2722DD198D400218896 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCBDA27F2DD1995300218896 /* Build configuration list for PBXNativeTarget "SmartBrewerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCBDA2802DD1995300218896 /* Debug */,
+				FCBDA2812DD1995300218896 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FCBDA2412DD198D300218896 /* Project object */;
+}

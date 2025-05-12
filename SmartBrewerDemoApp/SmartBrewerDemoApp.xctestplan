@@ -1,0 +1,45 @@
+{
+  "configurations" : [
+    {
+      "id" : "3FDD50AB-2489-4E15-B5F1-D7DDA0910B3D",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:SmartBrewerDemoApp.xcodeproj",
+      "identifier" : "FCBDA2482DD198D300218896",
+      "name" : "SmartBrewerDemoApp"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:SmartBrewerDemoApp.xcodeproj",
+        "identifier" : "FCBDA2552DD198D400218896",
+        "name" : "SmartBrewerDemoAppTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:SmartBrewerDemoApp.xcodeproj",
+        "identifier" : "FCBDA25F2DD198D400218896",
+        "name" : "SmartBrewerDemoAppUITests"
+      }
+    },
+    {
+      "enabled" : false,
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:SmartBrewerDemoApp.xcodeproj",
+        "identifier" : "FCBDA2762DD1995300218896",
+        "name" : "SmartBrewerUITests"
+      }
+    }
+  ],
+  "version" : 1
+}
