@@ -6,7 +6,9 @@
 //
 
 import XCTest
+import SmartBrewerTestKit
 
+@MainActor
 final class SmartBrewerUITests: XCTestCase {
     let app = XCUIApplication()
     
@@ -14,18 +16,13 @@ final class SmartBrewerUITests: XCTestCase {
         continueAfterFailure = false
         app.launch()
     }
+
     
     func testStartBrewFlow() throws {
-        let brewButton = app.buttons["Brew"]
-        XCTAssertTrue(brewButton.exists)
+        let brew = BrewScreen(app: app)
         
-        brewButton.tap()
-        XCTAssert(app.staticTexts["brewingLabel"].waitForExistence(timeout: 1))
-        
-        //wait for the alert
-        let alert = app.alerts["Coffe is ready!"]
-        XCTAssert(alert.waitForExistence(timeout: 5))
-        
+        brew.startBrew()
+        brew.assertBrewingStarted()
+        brew.assertAlertAppears()
     }
-    
 }

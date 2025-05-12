@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		FC82FBB82DD1B4A10017B111 /* SmartBrewerTestKit in Frameworks */ = {isa = PBXBuildFile; productRef = FC82FBB72DD1B4A10017B111 /* SmartBrewerTestKit */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		FCBDA2572DD198D400218896 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -101,6 +105,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC82FBB82DD1B4A10017B111 /* SmartBrewerTestKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,6 +225,7 @@
 			);
 			name = SmartBrewerUITests;
 			packageProductDependencies = (
+				FC82FBB72DD1B4A10017B111 /* SmartBrewerTestKit */,
 			);
 			productName = SmartBrewerUITests;
 			productReference = FCBDA2772DD1995300218896 /* SmartBrewerUITests.xctest */;
@@ -261,6 +267,9 @@
 			);
 			mainGroup = FCBDA2402DD198D300218896;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				FC82FBB92DD1B7CD0017B111 /* XCLocalSwiftPackageReference "../SmartBrewerTestKit" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = FCBDA24A2DD198D300218896 /* Products */;
 			projectDirPath = "";
@@ -612,6 +621,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4GMZLS5YBQ;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/.build";
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = SmartBrewerDemoApp.SmartBrewerUITests;
@@ -629,6 +639,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4GMZLS5YBQ;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/.build";
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = SmartBrewerDemoApp.SmartBrewerUITests;
@@ -689,6 +700,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		FC82FBB92DD1B7CD0017B111 /* XCLocalSwiftPackageReference "../SmartBrewerTestKit" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../SmartBrewerTestKit;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FC82FBB72DD1B4A10017B111 /* SmartBrewerTestKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SmartBrewerTestKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FCBDA2412DD198D300218896 /* Project object */;
 }
