@@ -1,0 +1,29 @@
+name: iOS UI Tests
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  ui-tests:
+    name: Run SmartBrewer UI Tests
+    runs-on: macos-latest
+
+    steps:
+      - name: 📥 Checkout repository
+        uses: actions/checkout@v3
+
+      - name: 🛠️ Select Xcode version
+        run: sudo xcode-select -s /Applications/Xcode_15.2.app
+
+      - name: 🔧 Build and run tests
+        run: |
+          xcodebuild test \
+            -workspace SmartBrewer.xcworkspace \
+            -scheme SmartBrewerDemoApp \
+            -sdk iphonesimulator \
+            -destination 'platform=iOS Simulator,name=iPhone 14' \
+            ONLY_ACTIVE_ARCH=YES
+
