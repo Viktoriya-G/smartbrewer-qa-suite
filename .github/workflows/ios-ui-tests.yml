@@ -15,7 +15,7 @@ jobs:
       - name: 📥 Checkout repository
         uses: actions/checkout@v3
         with:
-        path: .
+          path: .
 
       - name: 🛠️ Select Xcode version
         run: sudo xcode-select -s /Applications/Xcode_15.2.app
